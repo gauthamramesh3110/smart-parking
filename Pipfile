@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+opencv-python = "*"
+django = "*"
+tensorflow = "==1.15"
+cython = "*"
+darkflow = {path = "./darkflow"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
